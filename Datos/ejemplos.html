@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+           background-color: rgb(248, 243, 171); 
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <h1>Menu</h1>
+    <ul>
+        <li><a href="/Multimedia/index.html">INDEX</a></li>
+        <li><a href="/Multimedia/ejemplo.html" target="_blank">ENCABEZADOS</a></li>
+        <li><a href="/Ejemplo/ejemplos1.html" target="_blank">LISTAS</a></li>
+        <li><a href="/Datos/datos.html" target="_blank">TABLAS</a></li>
+        <li><a href="/Datos/ejemplos.html" target="_blank">FORMULARIOS</a></li>
+    </ul>
+    <hr>
+   <h1 >FORMULARIOS</h1>
+    <form action="">
+        <label for="">Nombre:</label>
+        <input accesskey="t" type="text" name="entrada" size="15" maxlength="25">
+        <br>
+        <br>
+        <label for="">Apodo:</label>
+        <input readonly type="text" name="entrada" size="15" maxlength="25">
+        <br>
+        <br>
+        <label for="">Apellido:</label>
+        <input tabindex="5" type="text" name="entrada" size="15" maxlength="20">
+        <br>
+        <br>
+        <label for="">Contrasena:</label>
+        <input disabled type="password" name="pclave" size="15" maxlength="30">
+        <br>
+        <br>
+        <li><label for="">Color favorito:</label></li>
+        <br>
+        <input readonly type="checkbox" name="checkbox" value="1"> Azul
+        <input type="checkbox" name="checkbox" value="1"> Rojo
+        <input type="checkbox" name="checkbox" value="1"> Celeste
+        <input type="checkbox" name="checkbox" value="1"> Verde
+        <br>
+        <br>
+        <li><label for="">Sexo:</label></li>
+        <br>
+        <input type="radio" name="radio" value="f"> Femenina
+        <input type="radio" name="radio" value="m"> Masculino
+        <br>
+        <br>
+        <label for="">Submit </label>
+        <input type="submit" name="send_info" value="ENVIAR">
+        <br>
+        <br>
+        <label for="">Reset</label>
+        <input type="reset" value="INGRESAR" id="">
+        <br>
+        <br>
+        <label for="">button</label>
+        <input type="button" value="BUSCAR" onclick="alert('HOLA ME LLAMO MAJO')">
+        <br>
+        <br>
+        <input type="file" name="fichero" accept="application/x-zip-compressed">
+        <br>
+        <br>
+        <input type="text" src="/html/Multimedia/imagen1.jpg" alt="imagen3" height="300" width="400" >
+
+        <select name="paises" id="">
+            <option value="">Ingrese su pais</option>
+        <option value="1">Ecuador</option>
+        <option value="2">Chile</option>
+        <option value="3">Argentina</option>
+        <option value="4">Peru</option>
+        <option value="5">Brasil</option>
+        </select>
+        <br>
+        <br>
+        <textarea rows="20" cols="40">Ingrese un comentario: </textarea>
+<br>
+<br>
+<select name="pais" size="2" multiple="">
+    <option value="" selected="selected">Seleccione un pais</option>
+    <optgroup label="Europa">
+    <option value="E1">Spain</option>
+    <option value="E2">France</option>
+    <option value="E3">Italy</option>
+</optgroup>
+<optgroup label="America">
+<option value="A1">Brazil</option>
+<option value="A2">Chile</option>
+</optgroup>
+</select>
+<fieldset>
+    <h2>AGRUPAMIENTO DE ELEMENTOS DE UN FORMULARIO</h2>
+<legend>Comments and Uploads</legend>
+<textarea name="comments" cols="30" rows="6"
+wrap="virtual">Insert your comments here</textarea> <br>
+<input type="file" name="file" accept="application/x-zip-compressed">
+</fieldset>
+
+    </form>
+    
+</body>
+</html>
